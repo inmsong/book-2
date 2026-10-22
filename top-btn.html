@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botón Volver Arriba</title>
+  <style>
+    /* ===== Estilos del botón ===== */
+    .btn-top {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      border: none;
+      background: #2563eb;
+      color: #fff;
+      font-size: 22px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+      /* Oculto por defecto */
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(20px);
+      transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+      z-index: 999;
+    }
+
+    /* Visible cuando se hace scroll */
+    .btn-top.is-visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .btn-top:hover {
+      background: #1e40af;
+      transform: translateY(-3px);
+    }
+
+    .btn-top:focus-visible {
+      outline: 3px solid #93c5fd;
+      outline-offset: 3px;
+    }
+
+    /* Accesibilidad: respeta preferencias de movimiento reducido */
+    @media (prefers-reduced-motion: reduce) {
+
+      .btn-top,
+      html {
+        transition: none !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Contenido de ejemplo para poder hacer scroll -->
+  <div style="height: 2000px; padding: 20px; font-family: sans-serif;">
+    <h1>Haz scroll hacia abajo 👇</h1>
+    <p>El botón aparecerá cuando bajes más de 300px.</p>
+  </div>
+
+  <!-- Botón -->
+  <button id="btnTop" class="btn-top" aria-label="Volver al inicio de la página" title="Volver arriba">
+    ↑
+  </button>
+
+  <script>
+    (function () {
+      const btn = document.getElementById('btnTop');
+      const SHOW_AFTER = 300; // px de scroll para mostrarlo
+      let ticking = false;
+
+      // Mostrar/ocultar según scroll (con throttle para rendimiento)
+      function toggleVisibility() {
+        if (window.scrollY > SHOW_AFTER) {
+          btn.classList.add('is-visible');
+        } else {
+          btn.classList.remove('is-visible');
+        }
+        ticking = false;
+      }
+
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          window.requestAnimationFrame(toggleVisibility);
+          ticking = true;
+        }
+      }, { passive: true });
+
+      // Acción: scroll suave al top
+      btn.addEventListener('click', () => {
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        window.scrollTo({
+          top: 0,
+          behavior: reduceMotion ? 'auto' : 'smooth'
+        });
+        // Devuelve el foco al inicio para accesibilidad con teclado
+        btn.blur();
+      });
+
+      // Estado inicial (por si se recarga a media página)
+      toggleVisibility();
+    })();
+  </script>
+
+</body>
+
+</html>

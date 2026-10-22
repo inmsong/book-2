@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="Gerardo Uriel Gómez Sosa - Diseñador Web">
+  <meta name="keywords" content="Diseño Web, Páginas, Diseño Gráfico, trabajos, ">
+  <meta name="author" content="Gerardo Uriel Gómez Sosa">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Trabajos</title>
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+
+  <!-- CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- ******************* -->
+  <!-- BACK TO TOP -->
+  <!-- ******************* -->
+  <button id="btnTop" class="btn-top transition" aria-label="Volver al inicio de la página" title="Volver arriba"> ↑
+  </button>
+
+  <!-- ************************************* -->
+  <!-- MENÚ -->
+  <!-- ************************************* -->
+  <div class="contMenu">
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="contLogo">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/icons/logo.png" alt="logo" class="showDesktop">
+              <img src="images/icons/logo-mobile.png" alt="logo" class="showMobile">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="contMenuItems">
+              <ul class="navbar-nav float-right">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#seccAcerca">Acerca de </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trabajos.html">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="habilidades.html">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#seccContacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <!-- ************************************* -->
+  <!-- TITTLE HEAD MD -->
+  <!-- ************************************* -->
+  <section class="seccGral ttlHeadMd">
+    <div class="contImgHeader head-trab rvl-fast">
+      <img src="images/head-trab-sm-2.jpg">
+    </div>
+    <div class="ctnHeaderIcn">
+      <div class="container">
+        <div class="row">
+          <div class="SecTituloCuentas">
+            <h1 class="rvl-fast">Trabajos</h1>
+            <!-- <p class="rvl-fast">Esta es una pequeña muestra de los trabajos más representativos en los que he
+              participado a lo largo de
+              mi trayectoria laboral.</p>
+            <p class="rvl-fast"> ¡Espero sean de su agrado!</p> -->
+          </div>
+          <div class="icnTrabajos">
+            <div class="centrarIconosCat">
+              <div class="iconoCatCuentas rvl-fast">
+                <a class="btn-filter hvr-sitios" data-target="sitiosWeb">
+                  <div class="imgIconoCuentas">
+                    <img src="images/icons/icn-sitios-alt.svg" alt="icnSitios">
+                  </div>
+                  <p>Sitios Web</p>
+                </a>
+              </div>
+              <div class="iconoCatCuentas rvl-fast">
+                <a class="btn-filter hvr-interf" data-target="interfaz">
+                  <div class="imgIconoCuentas">
+                    <img src="images/icons/icn-interfaz-alt.svg" alt="icnInterfaz">
+                  </div>
+                  <p>Interfaz y sistemas</p>
+                </a>
+              </div>
+              <div class="iconoCatCuentas rvl-fast">
+                <a class="btn-filter hvr-imp" data-target="Disenos">
+                  <div class="imgIconoCuentas">
+                    <img src="images/icons/icn-impresos-alt.svg" alt="icnImpresos">
+                  </div>
+                  <p>Diseños</p>
+                </a>
+              </div>
+              <div class="iconoCatCuentas rvl-fast" style="display: none;">
+                <a class="btn-filter" data-target="varios">
+                  <div class="imgIconoCuentas">
+                    <img src="images/icons/icn-varios-alt.svg" alt="icnVarios">
+                  </div>
+                  <p>Varios</p>
+                </a>
+              </div>
+              <div class="iconoCatCuentas rvl-fast">
+                <a class="btn-filter hvr-varios" data-target="all">
+                  <div class="imgIconoCuentas">
+                    <img src="images/icons/icn-varios-alt.svg" alt="icnTodos">
+                  </div>
+                  <p>Todos</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ************************************* -->
+  <!-- TRABAJOS -->
+  <!-- ************************************* -->
+  <section class="seccGral">
+    <div class="gridTrabajos">
+      <div class="table table-filter">
+        <div class="container">
+          <div id="shuffle" class="row">
+
+
+            <!-- ANIMACIÓN -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="Disenos">
+              <div class="cont-li rvl-fast hvrImpresos">
+                <a class="normal back-vert gugs" href="detalle-3d-animacion.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB  CEMLA -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="interfaz">
+              <div class="cont-li rvl-fast hvrInterfaz">
+                <a class="normal back-logo cemla" href="detalle-cemla.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB  AFIRME -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios">
+                <a class="normal back-logo afirme" href="detalle-afirme.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB  ALIANT -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios backDarkGrey">
+                <a class="normal back-logo aliant" href="detalle-aliant.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- AKTIEN -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="Disenos">
+              <div class="cont-li rvl-fast hvrImpresos">
+                <a class="normal back-logo aktien" href="detalle-aktien.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- INTERFAZ CINEMEX -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="interfaz">
+              <div class="cont-li rvl-fast hvrInterfaz">
+                <a class="normal back-vert cinemex" href="detalle-cinemex.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- INTERFAZ AIRBUS-->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="interfaz">
+              <div class="cont-li rvl-fast hvrInterfaz">
+                <a class="normal back-logo airbus" href="detalle-airbus.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- IPM -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="Disenos">
+              <div class="cont-li rvl-fast hvrImpresos backDarkGrey">
+                <a class="normal back-vert ipm" href="detalle-ipm.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB  ASTRUM -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios">
+                <a class="normal back-logo astrum" href="detalle-astrum.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- INT3RFACE -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="Disenos">
+              <div class="cont-li rvl-fast hvrImpresos">
+                <a class="normal back-logo int3rface" href="detalle-int3rface.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- INTERFAZ PRINCIPAL-->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="interfaz">
+              <div class="cont-li rvl-fast hvrInterfaz">
+                <a class="normal back-vert principal" href="detalle-principal.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB COFOCE -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios backDarkGrey">
+                <a class="normal back-logo cofoce" href="detalle-cofoce.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB CLUBE -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios">
+                <a class="normal back-vert clube" href="detalle-clube.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB RDLP -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios backDarkGrey">
+                <a class="normal back-vert rdlp" href="detalle-rdlp.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB CUERVO -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="interfaz">
+              <div class="cont-li rvl-fast hvrInterfaz">
+                <a class="normal back-logo cuervo" href="detalle-cuervo.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB TRAFIMAR -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios backDarkGrey">
+                <a class="normal back-logo trafimar" href="detalle-trafimar.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB MERRELL -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios">
+                <a class="normal back-logo merrell" href="detalle-merrell.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB NOTARIA 32 -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios">
+                <a class="normal back-logo notaria" href="detalle-notaria.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB ARITHMOS -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios">
+                <a class="normal back-logo arithmos" href="detalle-arithmos.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB  BUUND -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios backDarkGrey">
+                <a class="normal back-logo buund" href="detalle-buund.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- INTERFAZ ANALYSIC -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="interfaz">
+              <div class="cont-li rvl-fast hvrInterfaz">
+                <a class="normal back-logo analysic" href="detalle-analysic.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- INTERFAZ LUMEN -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="interfaz">
+              <div class="cont-li rvl-fast hvrInterfaz">
+                <a class="normal back-logo lumen" href="detalle-lumen.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- INTERFAZ LUMEN 2-->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="interfaz">
+              <div class="cont-li rvl-fast hvrInterfaz">
+                <a class="normal back-logo lumen" href="detalle-redisenyo-lumen.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- STIO WEB CAPITAL RH -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="sitiosWeb">
+              <div class="cont-li rvl-fast hvrSitios backDarkGrey">
+                <a class="normal back-logo capital" href="detalle-capital.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- INTERFAZ PLACENCIA-->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="interfaz">
+              <div class="cont-li rvl-fast hvrInterfaz">
+                <a class="normal back-logo placencia" href="detalle-placencia.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- XOLOTL -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="Disenos">
+              <div class="cont-li rvl-fast hvrImpresos">
+                <a class="normal back-logo xolotl" href="detalle-xolotl.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- I SMILE -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="Disenos">
+              <div class="cont-li rvl-fast hvrImpresos">
+                <a class="normal back-vert i-smile" href="detalle-i-smile.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!-- INTERFAZ YUVEE-->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-4 filter" data-status="interfaz">
+              <div class="cont-li rvl-fast hvrInterfaz">
+                <a class="normal back-logo yuvee" href="detalle-yuuve.html">
+                </a>
+                <div class="info">
+                  <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 312 312">
+                    <path class="st0"
+                      d="M156,2C70.9,2,2,71,2,156s68.9,154,154,154,154-68.9,154-154S241,2,156,2ZM156,288.2c-73,0-132.2-59.2-132.2-132.2S83,23.8,156,23.8s132.2,59.2,132.2,132.2-59.2,132.2-132.2,132.2Z" />
+                    <path class="st0"
+                      d="M254.8,172.7v-61.6c0-10.8-8.8-19.6-19.6-19.6h-34.9l-20.6-25.3h-55l-16.6,25.3h-34.4c-10.8,0-19.6,8.8-19.6,19.6v87.2c0,10.8,8.8,19.6,19.6,19.6h76.5c10.3,16,28.2,26.5,48.6,26.5s46.3-15.9,54.3-38.2c.6-1.3,1.1-2.8,1.3-4.3,1.3-4.9,2.1-10,2.1-15.3s-.6-9.5-1.7-14ZM141,186.7c0,.8,0,1.7,0,2.5-11.6-5.9-19.6-18-19.6-32,0-19.8,16.1-35.9,35.9-35.9s18.5,3.8,24.9,10.1c-23.9,7.1-41.3,29.2-41.3,55.4ZM225.4,217.9c-7.2,6.1-16.5,9.9-26.7,9.9s-19.5-3.7-26.7-9.9c-7.3-6.2-12.3-14.9-13.9-24.8-.3-2.1-.5-4.2-.5-6.4,0-20.3,14.7-37.1,33.9-40.5,2.3-.4,4.7-.6,7.1-.6,22.7,0,41.1,18.4,41.1,41.1s-5.6,23.7-14.4,31.2Z" />
+                    <path class="st0"
+                      d="M206.5,154.3h-18v20.9c-.4.7-.9,1.5-1.3,2.2h-21.8v18h23.1v23.1h18v-23.1h23.1v-18h-23.1v-23.1Z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ************************************* -->
+  <!-- FOOTER -->
+  <!-- ************************************* -->
+  <footer>
+    <div class="container">
+      <div class="infoFooter rvl-interval">
+        <p>Gerardo Uriel Gómez Sosa</p>
+      </div>
+      <div class="contContacto rvl-interval">
+        <ul>
+          <li>
+            <a href="tel:5517303182" class="transition">
+              <img src="images/icons/icn-whats.png">
+            </a>
+          </li>
+          <li>
+            <a href="mailto:gurlgomezsosa@gmail.com?subject=Información%20acerca%20de%20servicios%20ofrecidos&body=Hola%20Gerardo%20Uriel:"
+              class="transition">
+              <img src="images/icons/icn-mail.png">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/curriculumSys.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <!-- SCROLL REVEAL -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    // SCROLL REVEAL
+    ScrollReveal().reveal('.rvl-interval', {
+      interval: 400,
+      delay: 500,
+      useDelay: 'onload',
+      reset: true,
+      scale: 0.85,
+    });
+    ScrollReveal().reveal('.rvl-fast', {
+      interval: 100,
+      delay: 100,
+      useDelay: 'once',
+      cleanup: true,
+    });
+    ScrollReveal().reveal('.rvl-sect', {
+      delay: 500,
+      opacity: 0,
+      // distance:'-100px',
+      useDelay: 'onload',
+      reset: true,
+    });
+
+
+    ScrollReveal().reveal('.rvl-ttl', {
+      distance: '100px',
+      useDelay: 'onload',
+      reset: true,
+      // delay: 1000,
+      // duration:600,
+      // easing: 'cubic-bezier(0.5, 0, 0, 1)',
+    });
+
+    ScrollReveal().reveal('.rvl-cont', {
+      distance: '500px',
+      useDelay: 'onload',
+      reset: true,
+      opacity: 0,
+      // delay: 1500,
+
+    });
+    //  POSICIONES
+    ScrollReveal().reveal('.rvl-rgt', {
+      distance: '200px',
+      origin: 'right',
+      opacity: 0,
+      // duration:3000,
+      // useDelay: 'onload',
+      // reset: true,
+    });
+    ScrollReveal().reveal('.rvl-lft', {
+      distance: '200px',
+      origin: 'left',
+      opacity: 0,
+      // duration:3000,
+      // useDelay: 'onload',
+      // reset: true,
+    });
+    ScrollReveal().reveal('.rvl-top', {
+      distance: '200px',
+      origin: 'top',
+      opacity: 0,
+      // duration:3000,
+      // useDelay: 'onload',
+      // reset: true,
+    });
+    ScrollReveal().reveal('.rvl-btm', {
+      distance: '200px',
+      origin: 'bottom',
+      opacity: 0,
+      // duration:3000,
+      // useDelay: 'onload',
+      // reset: true,
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(function () {
+      var current = location.pathname;
+      $('.contMenuItems li a').each(function () {
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if ($this.attr('href').indexOf(current) !== -1) {
+          $this.addClass('active');
+        }
+      })
+    })
+
+    //********************************** //
+    //  CÓDIGO TARJETAS MODIFICADO CGPT //
+    //********************************** // 
+
+    const nodes = [].slice.call(document.querySelectorAll('.cont-li'), 0);
+
+    const directions = {
+      0: 'top',
+      1: 'right',
+      2: 'bottom',
+      3: 'left'
+    };
+
+    const classNames = ['in', 'out']
+      .map(p => Object.values(directions).map(d => `${p}-${d}`))
+      .reduce((a, b) => a.concat(b));
+
+
+    // Detecta por qué lado entra o sale el cursor
+    const getDirectionKey = (ev, node) => {
+
+      const {
+        width,
+        height,
+        top,
+        left
+      } = node.getBoundingClientRect();
+
+      // Posición del cursor dentro de la tarjeta
+      const l = ev.pageX - (left + window.pageXOffset);
+      const t = ev.pageY - (top + window.pageYOffset);
+
+      // Centro de la tarjeta
+      const centerX = width / 2;
+      const centerY = height / 2;
+
+      // Distancia del cursor respecto al centro
+      const x = l - centerX;
+      const y = t - centerY;
+
+      /*
+       * Normalizamos X e Y de acuerdo con las dimensiones
+       * de la tarjeta.
+       *
+       * Esto permite trabajar correctamente con tarjetas
+       * rectangulares, por ejemplo 300x200, 400x250, etc.
+       */
+      const normalizedX = Math.abs(x / width);
+      const normalizedY = Math.abs(y / height);
+
+
+      // El cursor está más cerca del eje horizontal
+      if (normalizedX > normalizedY) {
+
+        // Derecha
+        if (x > 0) {
+          return 1;
+        }
+
+        // Izquierda
+        return 3;
+      }
+
+
+      // El cursor está más cerca del eje vertical
+
+      // Abajo
+      if (y > 0) {
+        return 2;
+      }
+
+      // Arriba
+      return 0;
+    };
+
+
+    class Item {
+
+      constructor(element) {
+
+        this.element = element;
+
+        this.element.addEventListener('mouseover', ev => {
+          this.update(ev, 'in');
+        });
+
+        this.element.addEventListener('mouseout', ev => {
+          this.update(ev, 'out');
+        });
+
+      }
+
+
+      update(ev, prefix) {
+
+        this.element.classList.remove(...classNames);
+
+        this.element.classList.add(
+          `${prefix}-${directions[getDirectionKey(ev, this.element)]}`
+        );
+
+      }
+
+    }
+
+
+    nodes.forEach(node => new Item(node));
+
+    //********************************** //
+    //  CÓDIGO TARJETAS ORIGINAL //
+    //********************************** //
+
+    // const nodes = [].slice.call(document.querySelectorAll('.cont-li'), 0);
+    // const directions = {0: 'top', 1: 'right', 2: 'bottom', 3: 'left'};
+    // const classNames = ['in', 'out'].map(p => Object.values(directions).map(d => `${p}-${d}`)).reduce((a, b) => a.concat(b));
+
+    // const getDirectionKey = (ev, node) => {
+    //   const {width, height, top, left} = node.getBoundingClientRect();
+    //   const l = ev.pageX - (left + window.pageXOffset);
+    //   const t = ev.pageY - (top + window.pageYOffset);
+    //   const x = l - width / 2 * (width > height ? height / width : 1);
+    //   const y = t - height / 2 * (height > width ? width / height : 1);
+    //   return Math.round(Math.atan2(y, x) / 1.57079633 + 5) % 4;
+    // };
+
+    // class Item {
+    //   constructor(element) {
+    //     this.element = element;
+    //     this.element.addEventListener('mouseover', ev => this.update(ev, 'in'));
+    //     this.element.addEventListener('mouseout', ev => this.update(ev, 'out'));
+    //   }
+
+    //   update(ev, prefix) {
+    //     this.element.classList.remove(...classNames);
+    //     this.element.classList.add(`${prefix}-${directions[getDirectionKey(ev, this.element)]}`);
+    //   }
+    // }
+
+
+    // nodes.forEach(node => new Item(node));
+
+
+
+    // CÓDIGO PARA MÓVILES
+    // document.querySelectorAll('.cont002').forEach(card => {
+
+    //   card.addEventListener('click', function (ev) {
+
+    //     if (window.matchMedia('(hover: none) and (pointer: coarse)').matches) {
+
+    //       if (!this.classList.contains('touch-active')) {
+
+    //         ev.preventDefault();
+
+    //         document.querySelectorAll('.cont002.touch-active')
+    //           .forEach(activeCard => {
+    //             activeCard.classList.remove('touch-active');
+    //           });
+
+    //         this.classList.add('touch-active');
+    //       }
+    //     }
+
+    //   });
+
+    // });
+  </script>
+
+  <script>
+    // BOTÓN BACK TO TOP
+    (function () {
+      const btn = document.getElementById('btnTop');
+      const SHOW_AFTER = 300; // px de scroll para mostrarlo
+      let ticking = false;
+
+      // Mostrar/ocultar según scroll (con throttle para rendimiento)
+      function toggleVisibility() {
+        if (window.scrollY > SHOW_AFTER) {
+          btn.classList.add('is-visible');
+        } else {
+          btn.classList.remove('is-visible');
+        }
+        ticking = false;
+      }
+
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          window.requestAnimationFrame(toggleVisibility);
+          ticking = true;
+        }
+      }, { passive: true });
+
+      // Acción: scroll suave al top
+      btn.addEventListener('click', () => {
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        window.scrollTo({
+          top: 0,
+          behavior: reduceMotion ? 'auto' : 'smooth'
+        });
+        // Devuelve el foco al inicio para accesibilidad con teclado
+        btn.blur();
+      });
+
+      // Estado inicial (por si se recarga a media página)
+      toggleVisibility();
+    })();
+
+    // CSS TOUCH 
+    // document.querySelectorAll('.cont-li').forEach(card => {
+
+    //   card.addEventListener('click', function (ev) {
+
+    //     if (window.matchMedia('(hover: none) and (pointer: coarse)').matches) {
+
+    //       if (!this.classList.contains('touch-active')) {
+
+    //         ev.preventDefault();
+
+    //         document.querySelectorAll('.cont-li.touch-active')
+    //           .forEach(activeCard => {
+    //             activeCard.classList.remove('touch-active');
+    //           });
+
+    //         this.classList.add('touch-active');
+    //       }
+    //     }
+
+    //   });
+
+    // });
+  </script>
+</body>
+
+</html>
