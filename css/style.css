@@ -2836,7 +2836,9 @@ background: rgba(255, 255, 255, 0.17);
     /* background-color: rgba(26, 188, 156, 0.9);*/
     opacity: 0;
   }
-
+.info svg {
+  height: auto!important;
+}
   /* SLIDER HOME */
   .contSlideHome .carousel-item .contImgSlide {
     width: 100%;
